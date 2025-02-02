@@ -3,7 +3,7 @@
 </div>
 
 
-This project is a Flask-based web application designed to predict breast cancer diagnoses using machine learning models.
+This project is a Flask-based web service application designed to predict breast cancer diagnoses using machine learning models.
 
 ---
 
