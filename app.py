@@ -20,10 +20,6 @@ app = Flask(__name__, template_folder='templates')
 def home():
     return render_template('index.html')
 
-@app.route('/hello') 
-def hello():
-    return "<h1>You can do it Khalid, Keep going<h1>"
-
 @app.route('/greet/<name>',methods=['GET'])
 def greeting(name):
     return f"{request.method}"
