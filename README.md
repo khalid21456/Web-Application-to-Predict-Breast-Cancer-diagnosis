@@ -33,7 +33,7 @@ Ensure you have the following installed on your system:
    ```bash
    python -m venv venv
    source myenv/bin/activate   # On Linux/Mac
-   venv\Scripts\activate      # On Windows
+   myenv\Scripts\activate      # On Windows
 
 3. **Install Dependencies**
     ```bash
