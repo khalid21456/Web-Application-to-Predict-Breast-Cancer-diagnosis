@@ -32,7 +32,7 @@ Ensure you have the following installed on your system:
 2. **Set Up a Virtual Environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate   # On Linux/Mac
+   source myenv/bin/activate   # On Linux/Mac
    venv\Scripts\activate      # On Windows
 
 3. **Install Dependencies**
