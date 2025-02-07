@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.3/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <meta
+      name="keywords"
+      content="cancer,machine learning,breast cancer,diagnosis, prediction, cancer prediction, cancer detection"
+    />
+    <meta name="description" content="" />
+    <meta name="copyright" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/form2.css') }}"
+    />
+    <title>Diagnosis Form</title>
+  </head>
+  <body>
+    <div id="full-container">
+      <div class="container">
+        <div style="display: flex; justify-content: center">
+          <div class="logo-container">
+            <img
+              src="{{ url_for('static', filename='img/Pinkora-logo.png') }}"
+              height="150px"
+            />
+          </div>
+        </div>
+        <div style="display: flex; justify-content: center">
+          <div
+            class="form2-container"
+            style="display: flex; justify-content: space-around"
+          >
+            <div class="section">
+              <div id="inputs-container">
+                <div class="input-group">
+                  <label class="label">radius_mean</label>
+                  <input
+                    autocomplete="off"
+                    name="fname"
+                    id="Email"
+                    class="input"
+                    type="text"
+                  />
+                  <div></div>
+                </div>
+
+                <div class="input-group">
+                  <label class="label">texture_mean</label>
+                  <input
+                    autocomplete="off"
+                    name="fname"
+                    id="Email"
+                    class="input"
+                    type="text"
+                  />
+                  <div></div>
+                </div>
+                <div class="input-group">
+                    <label class="label">concavity_mean</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">fractal_dimension_mean</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">perimeter_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">compactness_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">symmetry_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">texture_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">smoothness_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">concave_points_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="section">
+              <div id="inputs-container">
+                <div class="input-group">
+                  <label class="label">perimeter_mean</label>
+                  <input
+                    autocomplete="off"
+                    name="fname"
+                    id="Email"
+                    class="input"
+                    type="text"
+                  />
+                  <div></div>
+                </div>
+                <div class="input-group">
+                    <label class="label">smoothness_mean</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">concave_points_mean</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">radius_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">area_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">concavity_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">fractal_dimension_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">perimeter_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">compactness_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">symmetry_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+              </div>
+            </div>
+            <div class="section">
+              <div id="inputs-container">
+                <div class="input-group">
+                  <label class="label">area_mean</label>
+                  <input
+                    autocomplete="off"
+                    name="fname"
+                    id="Email"
+                    class="input"
+                    type="text"
+                  />
+                  <div></div>
+                </div>
+                <div class="input-group">
+                    <label class="label">compactness_mean</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">symmetry_mean</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">texture_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">smoothness_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">concave_points_se</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">radius_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">area_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">concavity_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+                  <div class="input-group">
+                    <label class="label">fractal_dimension_worst</label>
+                    <input
+                      autocomplete="off"
+                      name="fname"
+                      id="Email"
+                      class="input"
+                      type="text"
+                    />
+                    <div></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
