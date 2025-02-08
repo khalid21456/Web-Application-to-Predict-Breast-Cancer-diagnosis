@@ -7,7 +7,7 @@ This project is a Flask-based web service application designed to predict breast
 
 ---
 
-## How to Run the Flask Application
+## How to Run Flask Application
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/512px-Flask_logo.svg.png?20210411035240" alt="Flask Logo">
